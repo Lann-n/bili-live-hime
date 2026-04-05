@@ -1,5 +1,5 @@
 # 哔哩哔哩直播姬（仮）
-[![GitHub License](https://img.shields.io/github/license/Rsplwe/bili-live-hime?style=flat-square)](https://github.com/Rsplwe/bili-live-hime/blob/main/LICENSE) [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Rsplwe/bili-live-hime/publish-to-manual-release.yml?branch=main&style=flat-square)](https://github.com/Rsplwe/bili-live-hime/actions/workflows/publish-to-manual-release.yml)
+[![GitHub License](https://img.shields.io/github/license/Lann-n/bili-live-hime?style=flat-square)](https://github.com/Lann-n/bili-live-hime/blob/main/LICENSE) [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Lann-n/bili-live-hime/publish-to-manual-release.yml?branch=main&style=flat-square)](https://github.com/Lann-n/bili-live-hime/actions/workflows/publish-to-manual-release.yml)
 
 官方直播姬的轻量化、跨平台替代工具，支持 Windows / Linux / MacOS。
 
@@ -48,7 +48,7 @@
 ## 下载
 
 ### 预编译版本
-* [Release](https://github.com/Rsplwe/bili-live-hime/releases/latest)
+* [Release](https://github.com/Lann-n/bili-live-hime/releases/latest)
 
 ### 从源码运行
 
@@ -58,7 +58,7 @@
 
 #### Clone
 ```bash
-git clone https://github.com/Rsplwe/bili-live-hime.git
+git clone https://github.com/Lann-n/bili-live-hime.git
 cd bili-live-hime
 npm install
 ```

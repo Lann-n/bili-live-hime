@@ -55,7 +55,7 @@ export function MoreSettings() {
           variant="ghost"
           className="h-auto w-full justify-between py-3"
           onClick={() => {
-            openUrl("https://github.com/Rsplwe/bili-live-hime/issues");
+            openUrl("https://github.com/Lann-n/bili-live-hime/issues");
           }}>
           <div className="flex items-center gap-3">
             <HugeiconsIcon
@@ -73,7 +73,7 @@ export function MoreSettings() {
           variant="ghost"
           className="h-auto w-full justify-between py-3"
           onClick={() => {
-            openUrl("https://github.com/Rsplwe/bili-live-hime");
+            openUrl("https://github.com/Lann-n/bili-live-hime");
           }}>
           <div className="flex items-center gap-3">
             <HugeiconsIcon
@@ -81,6 +81,24 @@ export function MoreSettings() {
               className="h-5 w-5 text-muted-foreground"
             />
             <span className="text-sm">项目主页</span>
+          </div>
+          <HugeiconsIcon
+            icon={ExternalLink}
+            className="h-4 w-4 text-muted-foreground"
+          />
+        </Button>
+        <Button
+          variant="ghost"
+          className="h-auto w-full justify-between py-3"
+          onClick={() => {
+            openUrl("https://github.com/Rsplwe/bili-live-hime");
+          }}>
+          <div className="flex items-center gap-3">
+            <HugeiconsIcon
+              icon={Folders}
+              className="h-5 w-5 text-muted-foreground"
+            />
+            <span className="text-sm">原项目主页</span>
           </div>
           <HugeiconsIcon
             icon={ExternalLink}
@@ -96,6 +114,7 @@ export function MoreSettings() {
         </p>
         <p className="text-xs text-muted-foreground">哔哩哔哩直播姬（仮）</p>
         <p className="text-xs text-muted-foreground">Created by Rsplwe</p>
+        <p className="text-xs text-muted-foreground">Modified by Lann-n</p>
       </div>
     </div>
   );
