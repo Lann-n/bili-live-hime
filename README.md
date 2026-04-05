@@ -6,6 +6,7 @@
 ## 已支持的功能
 - [x] 获取 RTMP / SRT 推流地址及流密钥
 - [x] 支持直播间信息修改 （标题、分区）  
+- [x] 支持人脸认证
 - [x] 直播间弹幕推送
 - [x] 观众进入提示
 - [x] 打赏礼物推送
@@ -77,3 +78,4 @@ npm run tauri build
 
 ## 参考项目
 - [**SocialSisterYi/bilibili-API-collect**](https://github.com/SocialSisterYi/bilibili-API-collect)
+- [**Rsplwe/bili-live-hime**](https://github.com/Rsplwe/bili-live-hime)
