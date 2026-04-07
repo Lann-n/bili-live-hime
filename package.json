@@ -4,7 +4,7 @@
     "name": "Rsplwe",
     "email": "rsplwe@anon.tokyo"
   },
-  "version": "0.6.1",
+  "version": "0.6.2",
   "type": "module",
   "scripts": {
     "dev": "vite",

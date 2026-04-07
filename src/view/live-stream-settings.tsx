@@ -574,10 +574,8 @@ export function LiveStreamSettings() {
           </DialogHeader>
           <div className="flex items-center gap-2">
             <div className="grid flex-1 gap-2">
-              <div className="mx-auto rounded-2xl border border-pink-300/90 bg-pink-50/70 p-3 shadow-sm dark:border-pink-400/40 dark:bg-pink-500/10">
-                <div className="rounded-xl bg-background p-2">
-                  <QRCodeSVG value={qrCodeUrl} size={240} />
-                </div>
+              <div className="mx-auto inline-block rounded-sm border-4 border-pink-500 bg-white shadow-[0_0_0_1px_rgba(236,72,153,0.55),0_0_18px_4px_rgba(236,72,153,0.28)] dark:bg-background dark:shadow-[0_0_0_1px_rgba(244,114,182,0.7),0_0_20px_5px_rgba(244,114,182,0.35)]">
+                <QRCodeSVG value={qrCodeUrl} size={240} />
               </div>
             </div>
           </div>
